@@ -7,15 +7,15 @@
 int main(void)
 {
 	int n;
-	int y;
+	int m;
 
 	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
 	}
-	for (y = 97; y <= 102; y++)
+	for (m = 97; m <= 102; m++)
 	{
-		putchar(y);
+		putchar(m);
 	}
 	putchar('\n')
 	return (0);
