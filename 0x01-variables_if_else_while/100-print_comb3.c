@@ -13,7 +13,7 @@ int main(void)
 	{
 		while (m <= '9')
 		{
-			if (!(n > m) || n == m)
+			if (!(n > m || n == m))
 			{
 				putchar(n);
 				putchar(m);
