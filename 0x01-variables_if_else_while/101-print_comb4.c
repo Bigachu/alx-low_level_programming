@@ -11,7 +11,6 @@ int main(void)
 	int k = '0';
 
 	while (n <= '7')
-
 	{
 		while (m <= '8')
 		{
@@ -26,7 +25,7 @@ int main(void)
 					{
 					putchar(',');
 				        putchar(' ');
-					}
+					}	
 				}
 				k++;
 			}
@@ -38,7 +37,3 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
-
-
-
