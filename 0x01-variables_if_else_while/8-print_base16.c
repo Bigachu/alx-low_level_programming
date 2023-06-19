@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
  * main - Entry point
  * Description: 'Print numbers of base 16 in lowercase'
@@ -10,16 +7,16 @@
 int main(void)
 {
 	int n;
-	char low;
+	int m;
 
-	for (n = '0'; n <= '9'; n++)
+	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
 	}
-	for (low = 'a'; low <= 'f'; low++)
+	for (m = 97; m <= 102; m++)
 	{
-		putchar(low);
+		putchar(m);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
