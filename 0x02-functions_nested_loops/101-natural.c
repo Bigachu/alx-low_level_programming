@@ -15,6 +15,6 @@ int main(void)
 	}
 	i++;
 	}
-	pintf("%d\n", z);
+	printf("%d\n", z);
 	return (0);
 }
